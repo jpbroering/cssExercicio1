@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Olá!</title>
+
+        <style>
+            body {
+                margin: 0; /* Tira a margem padrão do body */
+
+                /* Background */
+                
+                background-image: url("imagens/bg.jpg"); /* Coloca uma imagem de fundo */
+                background-repeat: no-repeat;            /* Impede a repetição da imagem */
+                background-size: cover;                  /* Faz a imagem cobrir todo o fundo */
+            }
+
+            h1 {
+                /* Define a cor do texto */
+                color: white;
+
+                /* Centraliza o texto do título */
+                text-align: center;
+            }
+
+            .texto-centro {
+                /* Posição do Elemento */
+                position: absolute; /* Define a posição para ser absoluta */
+                top: 50%;                           /* Posição a partir do topo  */
+                left: 50%;                          /* Posição a partir da esquerda  */
+                transform: translate(-50%, -50%);   /* Reposiciona o elemento centralizando ele */
+
+
+                /* Background o elemento */
+                padding: 20px;                          /* Espaço entre os elementos internos e a borda */
+                background-color: rgba(0,0,0,0.5);    /* Cor e opacidade do background */
+                border-radius: 20px;                    /* Raio/suavidade das bordas */
+
+                /* Texto */
+                color: white;                         /* Define a cor do texto */
+                text-align: center;                     /* Centraliza o texto */
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Olá, eu sou João Paulo</h1>
+
+        <div class="texto-centro">
+            <p>
+                Olá meu sou um estudante de Análise e Desenvolvimento de 
+                Sistemas e estou aprendendo CSS!
+            </p>
+        </div>
+    </body>
+</html>
